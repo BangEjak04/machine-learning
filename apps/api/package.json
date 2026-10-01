@@ -1,0 +1,11 @@
+{
+  "name": "machine-learning-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "uv run fastapi dev",
+    "build": "echo 'Add build script here'",
+    "test": "echo 'Add test script here'",
+    "lint": "echo 'Add lint script here'"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "machine-learning",
+  "version": "1.0.0",
+  "private": true,
+  "author": "BangEjak04",
+  "license": "ISC",
+  "description": "Machine Learning",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^10.11.0",
+    "prettier": "^3.9.9",
+    "turbo": "^2.11.5"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "11.17.0"
+    }
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BangEjak04/machine-learning.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BangEjak04/machine-learning/issues"
+  },
+  "homepage": "https://github.com/BangEjak04/machine-learning#readme"
+}
